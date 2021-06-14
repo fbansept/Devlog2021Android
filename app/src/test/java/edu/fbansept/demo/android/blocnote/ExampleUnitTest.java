@@ -1,4 +1,4 @@
-package edu.fbansept.devlog2021;
+package edu.fbansept.demo.android.blocnote;
 
 import org.junit.Test;
 

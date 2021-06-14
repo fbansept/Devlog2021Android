@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_item_note"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_ajouterTache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:backgroundTint="#00000000"
+        android:text="@string/ajouter_une_tache"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        app:icon="@drawable/ic_add"
+        app:iconTint="@color/black" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

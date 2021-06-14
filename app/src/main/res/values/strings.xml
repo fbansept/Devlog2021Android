@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">Devlog2021</string>
+    <string name="app_name">Demo bloc notes</string>
+    <string name="server_ip">http://10.0.2.2:8080/</string>
+    <string name="fichier_preference">MesPreferences</string>
+    <string name="ajouter_une_note">Ajouter une note</string>
+    <string name="titre">Titre ...</string>
+    <string name="contenu">Contenu ...</string>
+    <string name="ajouter_une_tache">Ajouter une tache</string>
+    <string name="tache">Tache ...</string>
+    <string name="title_activity_test">TestActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Devlog2021"
+rootProject.name = "BlocNote"

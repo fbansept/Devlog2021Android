@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutEditionNote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".view.ListeNoteActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView_listeNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/liste_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp" />
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment"
+        android:name="edu.fbansept.demo.android.blocnote.view.fragment.HeaderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="64dp" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar_EditionActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/purple_200"
+        app:fabAlignmentMode="end"
+        app:fabCradleMargin="6dp"
+        app:fabCradleRoundedCornerRadius="12dp"
+
+        app:fabCradleVerticalOffset="0dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_ajouterNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/ajouter_une_note"
+        android:focusable="true"
+        app:backgroundTint="@color/purple_500"
+        app:fabSize="auto"
+        app:layout_anchor="@id/bottomAppBar_EditionActivity"
+        app:maxImageSize="35dp"
+        app:srcCompat="@drawable/ic_post_add" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
